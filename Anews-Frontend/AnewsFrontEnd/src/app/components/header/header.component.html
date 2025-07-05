@@ -1,0 +1,41 @@
+<header class="header w-full  h-auto flex justify-between items-center">
+    <div class="img  ">
+      <img src="/assets/images/Anews-logo.png" width="120" class="mix-blend-multiply">
+    </div>
+    <nav class="p-5 flex gap-5 py-0 items-center font-family-poppins-bold">
+        <div routerLink="/home" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300">
+          <h1>Home</h1>
+        </div>
+        <div routerLink="/economy" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300">
+          <h1>Economy</h1>
+        </div>
+        <div routerLink="/technology" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300">
+          <h1>Technology</h1>
+        </div>
+        <div routerLink="/technology" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300">
+          <h1>sport</h1>
+        </div>
+        <div routerLink="/blog" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300" >
+          <h1>Blog</h1>
+        </div>
+        <div routerLink="/about-us" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300">
+          <h1>About us</h1>
+        </div>
+        <div routerLink="/contact-us" class="nav-item hover:text-blue-400 cursor-pointer transition-all duration-300">
+          <h1>Contact-US</h1>
+        </div>
+    </nav>
+
+    <div class="flex gap-4 items-center  p-2">
+        <button [routerLink]="'/login'" class="bg-blue-500 font-family-poppins-regular text-white  p-2 rounded-2xl px-10 cursor-pointer
+          transition-all duration-300 hover:bg-white hover:border hover:border-blue-500 hover:text-black
+        ">
+          Login
+        </button>
+        <button routerLink="/sign-up" class="border border-blue-500 font-family-poppins-regular text-black  p-2 rounded-2xl px-10 cursor-pointer
+
+        transition-all duration-300 hover:bg-blue-500 hover:text-white">
+          Sign Up
+        </button>
+    </div>
+</header>
